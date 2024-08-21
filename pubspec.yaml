@@ -1,0 +1,29 @@
+name: uihub_netflix_home
+description: "free flutter ui is all you need"
+#publish_to: 'none'
+#repository: https://github.com/flutter-uihub/uihub_netflix_home
+
+version: 1.0.0
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.10+1
+  gap: ^3.0.1
+  styled_widget: ^0.4.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints:
+
+flutter:
+  assets:
+    - assets/uihub/uihub_netflix_home/
+  uses-material-design: true
+
+topics:
+  - uihub
